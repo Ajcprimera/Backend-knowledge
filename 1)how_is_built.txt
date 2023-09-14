@@ -1,0 +1,14 @@
+como funciona:
+imaginemos que tenemos clientes que en este caso son usuarios 
+con sus navegadores haciendo su solicitud navegando en 
+diferentes paginas, de hecho esa navegacion tambien es una
+solicitud y la forma de pedirlo es mediante el frontend, el 
+cual tiene una lista la cual le podemos pedir al navegador, 
+esto es conocido como endpoint y al ser declarado la solicitud 
+el que recie esa declaracion es la API y esta esta encargada 
+de llevarla al backend, del cual esta compuesto de varios 
+desarrolladores y varios endpoint, bases de datos y ademas 
+libreria que nos ayuda a facilitar que no facilita el 
+desarrollo
+
+API (Application Programming Interface)

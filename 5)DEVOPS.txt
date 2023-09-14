@@ -1,0 +1,50 @@
+Los devops son los encargados de unir la parte de desarrollo 
+con la parte de operaciones para mejorar y automatizar los 
+procesos entre los equipo de IT
+
+DevOps también incluye la adopción de prácticas y 
+herramientas de ciclo de vida de software, como integración 
+continua y entrega continua, para mejorar la eficiencia y la 
+efectividad de los procesos de desarrollo y entrega de 
+software.
+
+workflow: 
+* Las aplicaciones son expuestas a muchas zonas, 
+potencialmente a todo el mundo.
+
+* El request del cliente tiene que estar lo más cerca posible 
+al data center para reducir la latencia, y por ende, el 
+tiempo de respuesta.
+
+* Git es un sistema atómico de control de versiones utilizado 
+para crear repositorios de código. Github es un servicio de 
+repositorios remotos.
+
+* Centralizamos nuestro código en un repositorio remoto 
+(Github), al que los miembros del equipo de desarrollo equipo 
+aportarán el código.
+
+* La rama principal (main) tiene todo el código que debe 
+cumplir estándares a través de pruebas, calidad y seguridad.
+
+* Se denomina automation al rol de los desarrolladores que se 
+encargan de realizar las automatizaciones para hacer las 
+verificaciones en el código.
+
+* El servidor de repositorios nos ayuda a reunir desarrollo y 
+operaciones; el repositorio remoto se conecta con la nube, 
+ambos se comunican, y si cumplen con las pruebas, calidad y 
+seguridad, se despliega la app y nos conectamos a esos 
+servidores.
+
+* Así el equipo de desarrollo puede lanzar rápidamente y 
+operar el código en producción, normalmente después se vuelve 
+un flujo:
+    - Plan (planificación).
+    - Code (código).
+    - Build (construcción)
+    - Test (pruebas).
+    - Release (lanzamiento).
+    - Deploy (despliegue).
+    - Operate (operar).
+    - Monitor (monitorear).

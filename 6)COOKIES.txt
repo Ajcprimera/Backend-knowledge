@@ -1,0 +1,27 @@
+Las cookies nos ayuda a almcenar informacion impportante para 
+reconocer a los usuarios como de que pais esta conectado, el 
+idoma de preferencia como tambien el navegador, mantener la 
+sesion.
+
+Como funciona: 
+* Desde el Cliente realizamos una solicitud al Servidor.
+
+* Desde el servidor reconocemos el usuario y generamos una 
+Cookie.
+
+* Esta Cookie se envía al navegador para que sea guardada.
+
+* Así se identifica un usuario.
+
+* Una vez almacenada, al momento que el cliente haga una 
+petición al cliente, éste va a reconocer la cookie creada.
+
+* El Servidor podrá retornar una respuesta más apropieda a 
+este cliente en especifico.
+
+El principal problema de las cookies solamente funcionan 
+entre navegador y servidor, si queremos utilizarlas en native 
+apps, no serán compatibles.
+
+Pero hay una alternativa que se llama JWT que funciona en 
+mobile y en navegadores.

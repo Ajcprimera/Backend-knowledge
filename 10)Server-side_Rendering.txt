@@ -1,0 +1,40 @@
+Imaginemos que nosotros tenemos nuestros servidores y estan 
+corriendo nuestros servicios de backend que pueden retornar 
+diferentes tipos de archivos como la data de productos ahora 
+bien el server server-side rendering se encarga de renderizar 
+el HTML del cliente totalmente del lado del servidor, sin 
+embargo, existen otras formas de realizar el renderizado como 
+lo es el client-side rendering el cual se encarga de renderizar 
+la aplicacion en el navegador haciendo uso de javascript y la 
+gestion del DOM, no obstante, si queremos hacerlo de manera 
+hibrida podemos hacer el Rehydration el cual se encarga de los 
+2 anteriores aprovechando el HTML y los datos renderizados 
+desde del lado del servidor, hidratandose con una aplicaion 
+javascriptque se monta encima de esta y Prerendng que se 
+encarga de renderizar la web en tiempo de construccion 
+creando un artefacto que puede servirse de una manera 
+totalmente estática.
+
+Ventajas del server-side rendering:
+
+Mejora el SEO: Los motores de búsqueda pueden indexar mejor 
+las páginas que están renderizadas en el servidor.
+
+Carga más rápida de la página: La página se renderiza en el 
+servidor antes de enviarse al navegador, por lo que se puede 
+mostrar al usuario mucho antes que si se hiciera en el lado 
+del cliente.
+
+Mejora el rendimiento en dispositivos de baja potencia: Al 
+hacer el render en el servidor, se evita cargar la página 
+completa en el navegador antes de mostrarla, lo que es 
+importante en dispositivos de baja potencia.
+
+Mayor compatibilidad: Al hacer el render en el servidor, se 
+pueden garantizar que la página se muestre de manera 
+consistente en todos los navegadores, incluso en aquellos que 
+no soportan JavaScript.
+
+Mayor seguridad: Al hacer el render en el servidor, se pueden 
+ocultar datos sensibles y se pueden realizar validaciones y 
+autenticaciones antes de enviar la página al navegador.

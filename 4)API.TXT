@@ -1,0 +1,25 @@
+- Las API nos permite mediante codigo on otra parte del 
+sistema o tro sistema sistema en si, para el backend las 
+API mas nos importan son las de servicio web y corren baje el 
+protocolo http. La API utiliza una lista de rutas endpoints, 
+que provee las respuestas a las solicitudes del cliente, esta 
+solicitud debe ser empaquetada y retornada y existen varios 
+formas de empaquetarlos, comno formato json y xml 
+
+API REST es un estandar para desarrollar APIs que funcionan 
+en el protocolo HTTP.
+
+CRUD es el índice de unas plabras clave, y en el protocolo 
+http tenemos métodos para llevarlas a cabo:
+* Create (crear) → POST.
+* Read (leer) → GET.
+* Update (actualizar) → PUT / PATCH.
+* Delete (eliminar) → DELETE.
+Nota: Put envía la totalidad de los datos, mientras que patch 
+envía solo los datos destinados a actualizarse.
+
+Recmendacion: si desea visualizar como funciona una api visita 
+la pagina https://fakeapi.platzi.com/en/rest/categories la 
+cual nos ayudara a extraer la informacion de la peticiones e 
+insomnia nos va a ayudar de forma interactiva en como funciona 
+la api 

@@ -1,0 +1,33 @@
+Frameworks son herramientas que nos ayuda a ir más ágil y 
+desarrollar nuestro proyecto en el dia a dia. entre ellos 
+tenemos para Python:
+
+* Django
+* Flask
+* FastAPI
+
+- En JavaScript
+
+* Express
+* NextJS
+
+- En PHP
+
+* Laravel
+* Symphony
+
+- En Java
+
+* Spring
+
+- En Go
+
+* Gin
+
+- En Rubi
+
+* Ruby Rails
+
+- En C#
+
+* .NET

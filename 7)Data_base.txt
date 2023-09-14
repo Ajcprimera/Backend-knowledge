@@ -1,0 +1,62 @@
+Una base de datos es una herramienta para recopilar y 
+organizar información. Las bases de datos  pueden almacenar 
+información sobre personas, productos, pedidos u otras 
+cosas. Muchas bases de datos comienzan como una lista en una 
+hoja de cálculo o en un programa de procesamiento de texto.
+
+Existen dos tipos de bases de datos: Relacionales y No 
+Relacionales.
+
+
+Relacionales (SQL)
+Se caracterizan por ser creadas con tablas que relaciona los 
+datos con otros. usa SQL (Structured Query Language) que es 
+un lenguaje de computación para trabajar con conjuntos de 
+datos y las relaciones entre ellos.
+
+Las BD relacionales más populares son:
+
+MySQL
+PostgreSQL
+ORACLE
+Microsoft SQL Server
+
+Al trabajar todos con SQL, los frameworks aprovechan para 
+trabajar con ORMS Object-Relational Mapping, que es una 
+forma de abstraer la conexión a estas bases de datos, 
+utilizando la POO (Programación Orientada a Objetos.)
+
+No Relacionales (No SQL)
+Una base de datos no relacional es aquella que no usa el 
+esquema tabular de filas y columnas que se encuentra en la 
+mayoría de los sistemas de base de datos más tradicionales. 
+en vez de SQL, usa un formato JSON o parecido.
+
+Las BD no relacionales más populares son:
+
+MongoDB
+Cassandra (Apache)
+Couchbase
+
+CUIDADO CON LOS SERVICIOS DE BASES DE DATOS Porque es donde 
+está toda la información delicada de nuestros usuarios. Por 
+medio de los drivers el backend se comunica con las bases de 
+datos.
+
+También es importante tener en cuenta que el desarrollador 
+backend no es quien administra el mantenimiento de las bases 
+de datos, no gestiona backups, sincronización, etc, ésto lo 
+hace el DB Admin. Sino que éste construye la lógica para 
+consumir éste servicio por medio de los drivers.
+
+Proveedores de DB Administration
+Ofrecen servicios para administrar las bases de datos en 
+diferentes bases de datos y éstos cobran de acuerdo al 
+servicio y puede salir más economico que crear un equipo 
+para administrar toda nuestras bases de datos. Algunos son:
+
+Heroku.
+Firebase
+Digital Ocean
+Mongo Atlas
+Couchbase Capella DBaaS

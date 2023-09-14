@@ -1,0 +1,31 @@
+Imaginemos que tenemos un servidor, y este comience a colapsar 
+por la camtidad de usuarios que estan entrando a la aplicacion 
+y lor recursos que tenemos comienzar a ser insuficientes y una 
+forma es aumentar los recursos de ese servidor y eso se le 
+denomina escalamiento vertical ya que se trata de aumentar los 
+recursos de esa maquina que tiene el servidor, la desventaja 
+de este tipo de escalamiento es que es mas caro, si ya hicimos 
+un escalamiento vertical y deseamos desescalar la mayoria de 
+los proveedores no lo permiten, y que si llega a pasar a algo 
+en el servidor este empieza a hacer caerse como si fuera un 
+efecto domino ya que todo esta en un solo servidor
+
+Ahora bien si queremos solucionar el problema de la 
+disponibilidad, es recomendable hacer un escalado horizontal, 
+el cual consiste en crear otra maquina al lado con la mismas 
+caracteristicas pero sobre un servidor diferente, la ventaja 
+es que es mucho mas barato y permite hacer downgrade osea que 
+si ya no se necesita un servidor solo lo apagamos y listo, 
+ademas de que si un servidor falla hay otros con 
+disponibilidad para ser usados, no obstante cuando se vaya a 
+hacer una peticion es necesario hacerlo mediante un load 
+balancer que tiene conocimiento de nuestras 
+instancias/servidores y si alguno de ellos se llega a caer, 
+entonces envia la peticion a cualquier servidor que se 
+encuentre habil y de esta es mucho mas facil escalar; la 
+desventaja de escalamiento horizontal es que es mas dificil 
+de configurar y otra desventaja es que si se tiene la base 
+de datos corriendo en el mismo backend de nuestros 
+servidores, y el usuario recarga la página, el load balancer 
+puede enviarlo a otro servidor, cuya base de datos no está 
+sincronizada con el primer servidor.

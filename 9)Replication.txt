@@ -1,0 +1,18 @@
+Solucion para desincronización de base de datos:
+
+* Aislar base de datos a un servidor en particular. Se le hace 
+escalamiento vertical solo a la base de datos para evitar un 
+cuello de botella.
+
+* Se puede hacer escalamiento horizontal a la base de datos 
+con su propio load balancer para solventar el problema de la 
+disponibilidad.
+
+* Cada vez que se realice escritura en una de las bases de 
+datos, se realiza una sincronización para que el cambio 
+ocurra en todas las bases de datos. Esto es conocido como 
+replicación.
+
+Nota: normalmente el backend developer no se encarga de la 
+parte de replicación y gestión de bases de datos, sino en 
+la capa de los servidores y el escalamiento horizontal.

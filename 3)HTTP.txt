@@ -1,0 +1,23 @@
+HTTP(Hypertext Transfer Protocol): es usado para cargar 
+paginas web usando links de hipertexto; HTTP es una capa de 
+aplicacion de protocolo diseñado para transferir informacion 
+entre dispositivos en red y correr por encima de otras capas 
+de los protocolos de red 
+
+ejemplo:
+https://platzi.com/cursos
+
+- El https indica el protoco de la web, si tiene una S al 
+final indica el que un protocolo seguro 
+- El platzi.com indica el dominio de la pagina 
+- El /cursos indica la ruta o si es un servicio web, este se
+le conoce como endpoint 
+
+codigo de estado: es una información compuesta de tres números 
+que se transfiere de un servidor web a un usuario. Se trata 
+de un código de respuesta del servidor web a la solicitud 
+HTTP de un usuario.
+
+link el cual permite saber que error es el que muestra la 
+web:
+https://http.cat
